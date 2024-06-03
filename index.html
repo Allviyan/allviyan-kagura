@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Undangan Arjuna Dan Azlan</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Charmonman' rel='stylesheet'>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" type="text/css" >
+	<link href='https://fonts.googleapis.com/css?family=Archivo Black' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Afacad' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<audio id="myAudio" src="audio/u.mp3" preload="auto" loop></audio>
+	<div id="opening-screen">
+        <div class="opening-content box">
+        	
+            <h1 style="font-family: 'Charmonman';font-size: 50px;">Arjuna</h1>
+            <h1 style="font-family: 'Afacad';font-size: 40px;">&</h1>
+            <h1 style="font-family: 'Charmonman';font-size: 50px;">Arjuna</h1>
+            <p>Kepada Bapak/ibu/saudara/saudari</p>
+            <p>Kami Mengundang Anda Untuk Hadir Di Acara Syukuran Kami.</p>
+            <br>
+            <span class="sub_head">Sabtu, 6 Juli 2024</span>
+          <br>
+          <div id="bye" class="countdown">
+          
+          	<div class="detail">
+            <span class="number" id="day">00</span>
+            <span class="sub_heading">Hari</span>
+          	</div>
+          	<div class="detail">
+            <span class="number" id="hr">00</span>
+            <span class="sub_heading">Jam</span>
+          	</div>
+          	<div class="detail">
+            <span class="number" id="min">00</span>
+            <span class="sub_heading">Menit</span>
+          	</div>
+          	<div class="detail">
+            <span class="number" id="sec">00</span>
+            <span class="sub_heading">Detik</span>
+          	</div>
+      	</div>
+      
+      <br>
+      	       
+                <button onclick="enterMainPage()">Buka Undangan</button>
+        </div>
+    </div>
+	<div id="main-content" style="display: none;">
+	<main>
+		</section>
+		<section id="person" class="list-view">
+			<img width="250px" src="https://undangan-nodejs-main.vercel.app/images/bismillah.svg">
+			<h1 style="font-family: 'Archivo Black';font-size: 22px;">Assalamualaikum Wr.wb</h1>
+			<br>
+			<h1 style="font-family: 'Afacad';font-size: 20px;">Atas ridha Allah SWT, kami mengadakan acara syukuran atas terselenggaranya khitanan anak kami yang bernama:</h1>
+			
+			 <h1 style="font-family: 'Charmonman';font-size: 40px;display:inline-block;"><img width ="100px" style="border-radius:25%" src="img/arjuna.jpg"> Arjuna </h1>
+			<h1 style="font-family: 'Afacad';font-size: 20px;">Putra kedua Bpk. Muwardi & Ibu Sami</h1>
+			<h1 style="font-family: 'Afacad';font-size: 25px;">&</h1>
+			 <h1 style="font-family: 'Charmonman';font-size: 40px;display:inline-block;"> Azlan <img width ="100px" style="border-radius:25%" src="img/azlan.jpg"></h1>
+			<h1 style="font-family: 'Afacad';font-size: 20px;">Putra ketiga Bpk. Muwardi & Ibu Sami</h1>
+			<br>
+			<br>
+			<hr>
+		</section>
+		<section id="date">
+			<h1 style="font-family: 'Archivo Black';font-size: 40px;">Waktu Acara</h1>
+			<br>
+				<br>
+			<br>
+			 <h2>Pelaksanaan Khitan</h2>
+			 <h1 style="font-family: 'Afacad';font-size: 25px;">Tanggal :</h1>
+			 <h1 style="font-family: 'Afacad';font-size: 20px;">Senin, 29 Juni 2024</h1>
+			 <h1 style="font-family: 'Afacad';font-size: 25px;">Tempat : </h1>
+			 <h1 style="font-family: 'Afacad';font-size: 20px;">Klinik Tong Fang</h1>
+			<br>
+			<br>
+				<h2>Syukuran Khitan</h2>
+			 <h1 style="font-family: 'Afacad';font-size: 25px;">Tanggal :</h1>
+			 <h1 style="font-family: 'Afacad';font-size: 20px;">Sabtu, 6 Juli 2024</h1>
+			 <h1 style="font-family: 'Afacad';font-size: 25px;">Tempat : </h1>
+			 <h1 style="font-family: 'Afacad';font-size: 20px;">Rumah</h1>
+			 <br>
+			<br>
+			<br>
+			<br>
+				<br>
+			<br>
+			<br>
+			<br>
+			
+		</section>
+		<section id="location">
+			<hr>
+			<h1 style="font-family: 'Archivo Black';font-size: 40px;">Alamat Acara</h1>
+			<br>
+			<br>
+			<h1 style="font-family: 'Afacad';font-size: 20px;">Anda dapat menuju lokasi acara kami dengan bantuan peta dibawah ini. Atau klik alamat di bawah ini</h1>
+			<br>
+			<a href="https://www.google.co.id/maps/place/Jl.+Lindung+No.12,+RT.003%2FRW.009,+Jatiraden,+Kec.+Jatisampurna,+Kota+Bks,+Jawa+Barat+17433/@-6.3566718,106.9189858,21z/data=!4m6!3m5!1s0x2e69933c9f13cb63:0x6077aff77f5f66b!8m2!3d-6.3565922!4d106.9189363!16s%2Fg%2F11vq9chm32">
+			<h1 style="font-family: 'Afacad';font-size: 20px;">Jl. Lindung No.12, RT.004/RW.009, Jatiraden, Kec. Jatisampurna, Kota Bks, Jawa Barat 17433</h1>
+			</a>
+			<br>
+			<iframe style="border:2px solid black;" width="100%" height="300px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=-6.356682,106.918956+(My%20Business%20Name)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+			<br>
+			<br>
+			<br>
+			<br>
+			<hr>
+		</section>
+		<section id="doa">
+			<h1 style="font-family: 'Archivo Black';font-size: 40px;">Doa & harapan</h1>
+			<br>
+			 <h1 style="font-family: 'Afacad';font-size: 20px;">Semoga setelah menjalankan syariat agama khitan ini, menjadikan anak kami pribadi yang lebih baik. Sebagai pembuka pintu keberkahan bagi keluarga. Aamiin</h1>
+<h1 style="font-family: 'Afacad';font-size: 20px;">Khitan termasuk fitrah yang disebutkan dalam hadits shahih. Dari Abu Hurairah Radhiyallahu ‘anhu, ia berkata :</h1>
+<h1 style="font-family: 'Afacad';font-size: 30px;">“Lima dari fitrah yaitu khitan, istihdad (mencukur bulu kemaluan), mencabut bulu ketiak, memotong kuku dan mencukur kumis”</h1>
+			 <br>
+			<br>
+			<br>
+			<br>
+				<br>
+			<br>
+			<br>
+			<br>
+			
+		</section>
+		<section id="gallery">
+			<h1 style="font-family: 'Archivo Black';font-size: 40px;">Galery</h1>
+			   <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="img/arjuna.jpg" alt="Image 1"></div>
+            <div class="slide"><img src="img/azlan.jpg" alt="Image 2"></div>
+            <div class="slide"><img src="img/bg.jpg" alt="Image 3"></div>
+        </div>
+        <div class="controls">
+            <span class="prev" onclick="changeSlide(-1)">&#10094;</span>
+            <span class="next" onclick="changeSlide(1)">&#10095;</span>
+        </div>
+    </div>
+		</section>
+	</main>
+	<div class="bottom-nav">
+		<button onclick="scrollToSection('person')"><i class="fas fa-user-friends"></i></button>
+		<button onclick="scrollToSection('date')"><i class="far fa-calendar-alt"></i></button>
+		<button onclick="scrollToSection('location')"><i class="fas fa-map-marked-alt"></i></button>
+		<button onclick="scrollToSection('doa')"><i class="fas fa-praying-hands"></i></button>
+		<button onclick="scrollToSection('gallery')"><i class="far fa-images"></i></button>
+	</div>
+	</div>
+<script src="script.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
